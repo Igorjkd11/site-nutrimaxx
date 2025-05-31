@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Cadastro - Nutrimaxx</title>
+</head>
+<body>
+  <h1>Cadastro - Nutrimaxx</h1>
+
+  <h2>Dados Pessoais</h2>
+  <form>
+    <label>*Nome Completo:<br>
+      <input type="text" name="nome" required>
+    </label><br><br>
+
+    <label>*Data de Nascimento:<br>
+      <input type="date" name="nascimento" required>
+    </label><br><br>
+
+    <label>*CPF:<br>
+      <input type="text" name="cpf" required>
+    </label><br><br>
+
+    <p>Ao menos um telefone deve ser informado:</p>
+
+    <label>Telefone Fixo ou Comercial:<br>
+      <input type="tel" name="telefone_fixo" placeholder="(##) ####-####">
+    </label><br><br>
+
+    <label>Telefone Celular:<br>
+      <input type="tel" name="telefone_celular" placeholder="(##) #####-####">
+    </label><br><br>
+
+    <label>E-mail:<br>
+      <input type="email" name="email">
+    </label><br><br>
+
+    <label>*Digite novamente:<br>
+      <input type="email" name="email_confirm" required>
+    </label><br><br>
+
+    <label>
+      <input type="checkbox" name="promocoes"> Desejo receber e-mails promocionais
+    </label><br><br>
+
+    <label>*Crie sua Senha de acesso:<br>
+      <input type="password" name="senha" required>
+    </label><br><br>
+
+    <label>*Digite novamente:<br>
+      <input type="password" name="senha_confirm" required>
+    </label><br><br>
+
+    <h2>Dados de Entrega</h2>
+
+    <label>*CEP:<br>
+      <input type="text" name="cep" required>
+    </label><br><br>
+
+    <label>*Endereço:<br>
+      <input type="text" name="endereco" required>
+    </label><br><br>
+
+    <label>*Nº:<br>
+      <input type="text" name="numero" required>
+    </label><br><br>
+
+    <label>Complemento:<br>
+      <input type="text" name="complemento" placeholder="Ex.: Apartamento 1054">
+    </label><br><br>
+
+    <label>*Bairro:<br>
+      <input type="text" name="bairro" required>
+    </label><br><br>
+
+    <label>*Cidade:<br>
+      <input type="text" name="cidade" required>
+    </label><br><br>
+
+    <label>*Estado:<br>
+      <input type="text" name="estado" required>
+    </label><br><br>
+
+    <label>*País:<br>
+      <input type="text" name="pais" value="Brasil" required>
+    </label><br><br>
+
+    <button type="submit">Avançar</button>
+  </form>
+</body>
+</html>
