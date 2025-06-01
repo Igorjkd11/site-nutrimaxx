@@ -1,23 +1,8 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
   <title>Admin - Nutrimaxx</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header, footer { background-color: #eee; padding: 10px; text-align: center; }
-    nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px; background: #ccc; margin: 0; }
-    nav ul li { position: relative; }
-    nav ul ul { display: none; position: absolute; top: 100%; background: #ddd; padding: 5px; }
-    nav ul li:hover ul { display: block; }
-    main { padding: 20px; }
-    table { width: 100%; border-collapse: collapse; }
-    th, td { border: 1px solid #999; padding: 8px; text-align: left; }
-    .btn { padding: 5px 10px; margin: 2px; }
-  </style>
 </head>
 <body>
-
 <header>
   <h1>Área de Administração - Nutrimaxx</h1>
 </header>
