@@ -12,34 +12,3 @@ header {
   padding: 15px;
   text-align: center;
 }
-
-header a {
-  color: #ffcc00;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-input[type="text"] {
-  margin-top: 10px;
-  padding: 6px;
-  width: 200px;
-}
-
-section {
-  padding: 20px;
-}
-
-.produto {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-.preco {
-  color: green;
-  font-weight: bold;
-}
-
-button {
-  padding: 8px 12px;
-  background-color:

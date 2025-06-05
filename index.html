@@ -1,91 +1,90 @@
 <html>
-  <title>Nutrimaxx Suplementos</title>
-<body>
+  <body>
 <header>
+  <title>Cadastro - Nutrimaxx</title>
   <link rel="stylesheet" href="style.css">
-<h1>NUTRIMAXX SUMPLEMENTOS</h1>
-  <div>
-    <a href="cadastro">Entrar / Criar conta</a> |
-    <a href="cadastro">Minha conta</a>
-  </div>
-  <input type="text" placeholder="Pesquisar...">
-</header>
+      <h1>Cadastro - Nutrimaxx</h1>
+      <h2>Dados Pessoais</h2>
+  </header>
+  
+  <form>
+    <label>*Nome Completo:<br>
+      <input type="text" name="nome" required>
+    </label><br><br>
 
-<section>
-  <div class="produto">
-    <h2>ULTRA WHEY PROTEIN - 907g</h2>
-    <p class="preco">R$ 77,90 ou 12x R$ 7,36 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>BCAA DRINK - 300g</h3>
-    <p class="preco">R$ 96,50 ou 12x R$ 9,12 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>3W WHEY PROTEIN - 900g</h3>
-    <p class="preco">R$ 181,90 ou 12x R$ 17,19 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>ABISSAL PRÉ TREINO - 300g</h3>
-    <p class="preco">R$ 158,90 ou 12x R$ 15,02 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>100% WHEY PROTEIN - 900g</h3>
-    <p class="preco">R$ 164,80 ou 12x R$ 15,57 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>DRY COFFEE - 300g</h3>
-    <p class="preco">R$ 89,50 ou 12x R$ 8,46 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>ISOLOW WHEY PROTEIN - 900g</h3>
-    <p class="preco">R$ 267,60 ou 12x R$ 25,29 sem juros</p>
-    <button>Comprar</button>
-  </div>
-  <div class="produto">
-    <h3>SHARK PEANUT ZERO LACTOSE - 600g</h3>
-    <p class="preco">R$ 62,00 ou 12x R$ 5,86 sem juros</p>
-    <button>Comprar</button>
-  </div>
-</section>
+    <label>*Data de Nascimento:<br>
+      <input type="date" name="nascimento" required>
+    </label><br><br>
 
-  <footer>
-    
-    <h2>Categorias</h2>
-  <ul>
-    <li>Whey protein</li>
-    <li>Pré treino</li>
-    <li>Aminoácidos</li>
-    <li>Vitaminas e Minerais</li>
-    <li>Termogênicos</li>
-    <li>Vestuário</li>
-    <li>Pasta de amendoin</li>
-    <li>Snacks</li>
-    <li>Kits</li>
-    <li>Acessórios</li>
-    <li>Hipercalórico</li>
-  </ul>
-  <h2>Institucional</h2>
-  <ul>
-    <li>Sobre a Nutrimaxx</li>
-    <li>Como comprar</li>
-    <li>Segurança</li>
-    <li>Política de envio</li>
-    <li>Formas de pagamento</li>
-    <li>Política de garantia</li>
-    <li>Política de trocas e devoluções</li>
-  </ul>
+    <label>*CPF:<br>
+      <input type="text" name="cpf" required>
+    </label><br><br>
 
-  <h2>Atendimento</h2>
-  <p>Telefone: (88) 99999-9999</p>
-  <p>Email: sac@nutrimaxx.com.br</p>
-  <p>Horário de atendimento: 07h às 17h</p>
-</footer>
+    <p>Ao menos um telefone deve ser informado:</p>
 
+    <label>Telefone Fixo ou Comercial:<br>
+      <input type="tel" name="telefone_fixo" placeholder="(##) ####-####">
+    </label><br><br>
+
+    <label>Telefone Celular:<br>
+      <input type="tel" name="telefone_celular" placeholder="(##) #####-####">
+    </label><br><br>
+
+    <label>E-mail:<br>
+      <input type="email" name="email">
+    </label><br><br>
+
+    <label>*Digite novamente:<br>
+      <input type="email" name="email_confirm" required>
+    </label><br><br>
+
+    <label>
+      <input type="checkbox" name="promocoes"> Desejo receber e-mails promocionais
+    </label><br><br>
+
+    <label>*Crie sua Senha de acesso:<br>
+      <input type="password" name="senha" required>
+    </label><br><br>
+
+    <label>*Digite novamente:<br>
+      <input type="password" name="senha_confirm" required>
+    </label><br><br>
+
+    <h2>Dados de Entrega</h2>
+
+    <label>*CEP:<br>
+      <input type="text" name="cep" required>
+    </label><br><br>
+
+    <label>*Endereço:<br>
+      <input type="text" name="endereco" required>
+    </label><br><br>
+
+    <label>*Nº:<br>
+      <input type="text" name="numero" required>
+    </label><br><br>
+
+    <label>Complemento:<br>
+      <input type="text" name="complemento" placeholder="Ex.: Apartamento 1054">
+    </label><br><br>
+
+    <label>*Bairro:<br>
+      <input type="text" name="bairro" required>
+    </label><br><br>
+
+    <label>*Cidade:<br>
+      <input type="text" name="cidade" required>
+    </label><br><br>
+
+    <label>*Estado:<br>
+      <input type="text" name="estado" required>
+    </label><br><br>
+
+    <label>*País:<br>
+      <input type="text" name="pais" value="Brasil" required>
+    </label><br><br>
+
+    <button type="submit">Avançar</button>
+  </form>
 </body>
 </html>
