@@ -14,3 +14,4 @@ h1, h2 {
 form {
   background-color: #fff;
   max-width: 600p
+}

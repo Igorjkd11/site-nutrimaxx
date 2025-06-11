@@ -1,0 +1,90 @@
+<html lang="pt-BR">
+<head>
+  <title>Admin - Nutrimaxx</title>
+  <link rel="stylesheet" href="cssadministrativo.css">
+</head>
+<body>
+<header>
+  <h1>Área de Administração - Nutrimaxx</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Página Inicial</a></li>
+    <li><a href="admin-login.html">Admin</a>
+      <ul>
+        <li><a href="admin-objeto.html">Cadastro de Objetos</a></li>
+        <li><a href="admin-usuarios.html">Cadastro de Usuários</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main>
+  <!-- PÁGINA DE LOGIN -->
+  <section id="admin-login">
+    <h2>Login</h2>
+    <form>
+      <label>Email: <input type="email" name="email"></label><br>
+      <label>Senha: <input type="password" name="senha"></label><br>
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <!-- PÁGINA DE CADASTRO DO OBJETO -->
+  <section id="admin-objeto">
+    <h2>Cadastro de Produtos</h2>
+    <form>
+      <label>Nome: <input type="text" name="nome"></label><br>
+      <label>Preço: <input type="number" step="0.01" name="preco"></label><br>
+      <label>Descrição: <textarea name="descricao"></textarea></label><br>
+      <button type="submit">Salvar</button>
+    </form>
+
+    <h3>Lista de Produtos</h3>
+    <table>
+      <thead>
+        <tr><th>Nome</th><th>Preço</th><th>Ações</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ultra Whey</td><td>R$ 77,90</td>
+          <td><button class="btn">Editar</button><button class="btn">Apagar</button></td>
+        </tr>
+        <!-- Mais itens -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- PÁGINA DE CADASTRO DE USUÁRIOS -->
+  <section id="admin-usuarios">
+    <h2>Cadastro de Usuários</h2>
+    <form>
+      <label>Nome: <input type="text" name="nome"></label><br>
+      <label>Email: <input type="email" name="email"></label><br>
+      <label>Senha: <input type="password" name="senha"></label><br>
+      <button type="submit">Salvar</button>
+    </form>
+
+    <h3>Lista de Usuários</h3>
+    <table>
+      <thead>
+        <tr><th>Nome</th><th>Email</th><th>Ações</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João Silva</td><td>joao@email.com</td>
+          <td><button class="btn">Editar</button><button class="btn">Apagar</button></td>
+        </tr>
+        <!-- Mais usuários -->
+      </tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <p>Autor: Seu Nome - <a href="sobre.html">Sobre o autor</a></p>
+</footer>
+
+</body>
+</html>
