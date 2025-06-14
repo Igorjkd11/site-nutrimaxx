@@ -98,7 +98,7 @@ button {
   color: #ffcc00;
 }
 
-/* Quando passar o mouse na área da lateral, mostrar menu */
+
 .menu-hover-area:hover + .sidebar-hover,
 .sidebar-hover:hover {
   left: 0;
