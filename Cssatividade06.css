@@ -49,7 +49,7 @@ button {
   cursor: pointer;
 }
 
-/* Área sensível para ativar o hover */
+
 .menu-hover-area {
   position: fixed;
   top: 0;
@@ -59,7 +59,7 @@ button {
   z-index: 999;
 }
 
-/* Menu lateral escondido inicialmente */
+
 .sidebar-hover {
   position: fixed;
   top: 0;
