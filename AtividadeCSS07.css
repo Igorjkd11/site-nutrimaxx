@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+header a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  padding: 6px;
+  width: 200px;
+}
+
+section {
+  padding: 20px;
+}
+
+.produto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.preco {
+  color: green;
+  font-weight: bold;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.menu-hover-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  z-index: 999;
+}
+
+
+.sidebar-hover {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: #222;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar-hover h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.sidebar-hover ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-hover ul li {
+  margin: 10px 0;
+}
+
+.sidebar-hover ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar-hover ul li a:hover {
+  color: #ffcc00;
+}
+
+
+.menu-hover-area:hover + .sidebar-hover,
+.sidebar-hover:hover {
+  left: 0;
+}
+
+.main-content {
+  margin-left: 20px;
+  padding: 20px;
+}
